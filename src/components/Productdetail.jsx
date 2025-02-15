@@ -43,22 +43,22 @@ function Productdetail() {
       {/* Warranty, Shipping, Return Info Section */}
       <div className="mt-2 bg-white w-full flex flex-wrap justify-center gap-6 py-6 md:gap-8">
         <div className="flex flex-col items-center w-[80vw] sm:w-[40vw] md:w-[30vw] lg:w-[20vw]">
-          <img src="/src/assets/warrenty.png" className="w-[10vw] max-w-[60px]"/>
+          <img src="https://www.shutterstock.com/image-vector/circle-check-mark-shape-vector-600nw-2470360977.jpg" className="w-[10vw] max-w-[60px]"/>
           <h1 className="font-bold text-sm md:text-base">{product?.warrantyInformation}</h1>
         </div>
 
         <div className="flex flex-col items-center w-[80vw] sm:w-[40vw] md:w-[30vw] lg:w-[20vw]">
-          <img src="/src/assets/fast-delivery.png" className="w-[10vw] max-w-[60px]"/>
+          <img src="/src/assets/fast.jpg" className="w-[20vw]  max-w-[60px]"/>
           <h1 className="font-bold text-sm md:text-base">{product?.shippingInformation}</h1>
         </div>
 
         <div className="flex flex-col items-center w-[80vw] sm:w-[40vw] md:w-[30vw] lg:w-[20vw]">
-          <img src="/src/assets/icons8-box-64.png" className="w-[10vw] max-w-[60px]"/>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEhTpyWmwtyAmUotDgSTEEf5UFQz3nqF5yHQ&s" className="w-[10vw] max-w-[60px]"/>
           <h1 className="font-bold text-sm md:text-base">Min Order: {product?.minimumOrderQuantity}</h1>
         </div>
 
         <div className="flex flex-col items-center w-[80vw] sm:w-[40vw] md:w-[30vw] lg:w-[20vw]">
-          <img src="/src/assets/icons8-return-policy-66.png" className="w-[10vw] max-w-[60px]"/>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdVkhlJdZ1-IXr9zNK9USnVHR0WDReGBkP9A&s" className="w-[10vw] max-w-[60px]"/>
           <h1 className="font-bold text-sm md:text-base">{product?.returnPolicy}</h1>
         </div>
       </div>

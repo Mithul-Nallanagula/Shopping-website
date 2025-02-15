@@ -48,7 +48,7 @@ function Cartitem() {
                         <button className="border w-[25px] h-[25px] rounded-full" onClick={() => increse(item)}>+</button>
                         </span>
                       </span>
-                     <span className="flex justify-evenly mt-2" ><p >{price(item).toFixed(2)}$ </p> <img src="/src/assets/delete-bin-line.png" onClick={() => clear(item)}/></span>
+                     <span className="flex justify-evenly mt-2" ><p >{price(item).toFixed(2)}$ </p> <img src="https://img.freepik.com/premium-vector/recycle-bin-icon-dustbin-logo-trash-bin-clipart-vector-illustration-recycle-bin-flat-icon_791907-85.jpg?w=360" className="w-[15px]" onClick={() => clear(item)}/></span>
                     </span>
 
                 ))}
