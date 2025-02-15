@@ -48,7 +48,7 @@ function Productdetail() {
         </div>
 
         <div className="flex flex-col items-center w-[80vw] sm:w-[40vw] md:w-[30vw] lg:w-[20vw]">
-          <img src="/src/assets/fast.jpg" className="w-[20vw]  max-w-[60px]"/>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6yi0djlxZnT8c0nYgWrX_pimeI7rSixOCzA&s" className="w-[10vw] mt-[1.2vw]  max-w-[60px]"/>
           <h1 className="font-bold text-sm md:text-base">{product?.shippingInformation}</h1>
         </div>
 
