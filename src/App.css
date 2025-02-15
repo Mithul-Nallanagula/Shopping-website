@@ -1,0 +1,175 @@
+@import "tailwindcss";
+
+#category {
+    @media (max-width:620px) {
+        height: 10vh;
+    }
+    @media (min-width:620px) and (max-width:999px)  {
+        height: 13vh;
+    }
+    @media (min-width:1000px) {
+        height: 18vh;
+    }
+}
+#box,#box2,#box4{
+    @media (min-width:475px) and (max-width:620px) {
+        width:45vw;
+        height: 45vh;
+
+    }
+    @media (min-width:621px) and (max-width:850px) {
+        width:30vw;
+        height: 45vh;
+
+    }
+
+    @media (min-width:400px) and (max-width:474px) {
+        width:40vw
+
+    }
+    @media (min-width:851px) and (max-width:1100px) {
+        width:31vw;
+        height: 50vh;
+
+    }
+    @media (min-width:1101px) and (max-width:1250px) {
+        width:30vw;
+        height: 50vh;
+
+    }
+    @media (min-width:200px) and (max-width:400px) {
+        width:90vw;
+        height: 50vh;
+
+    }
+}
+
+#btn1,#btn2,#btn5{
+    @media (min-width:200px) and (max-width:400px) {
+        width:30vw;
+       
+
+    }
+
+    @media (min-width:475px) and (max-width:620px) {
+        width:30vw;
+
+    }
+    @media (min-width:621px) and (max-width:850px) {
+        width:20vw;
+       
+
+    }
+    @media (min-width:851px) and (max-width:1100px) {
+        width:20vw;
+        
+
+    }
+
+    @media (min-width:400px) and (max-width:474px) {
+        width:30vw
+    }
+}
+
+#btn3{
+    @media (min-width:200px) and (max-width:474px) {
+        width:30vw;
+        height: 5vh;
+       
+
+    }
+
+    @media (min-width:475px) and (max-width:620px) {
+        width:30vw;
+        height: 5vh;
+
+    }
+    @media (min-width:621px) and (max-width:850px) {
+        width:20vw;
+        height: 5vh;
+
+    }
+    @media (min-width:851px) and (max-width:1100px) {
+        width:20vw;
+        height: 5vh;
+        
+
+    }
+
+    @media (min-width:400px) and (max-width:474px) {
+        width:30vw
+    }
+}
+
+
+#main2{
+    @media (min-width:200px) and (max-width:474px) {
+        font-size: 10px;
+        
+       
+
+    }
+
+    @media (min-width:475px) and (max-width:620px) {
+        width:30vw;
+        height: 5vh;
+
+    }
+
+     @media (min-width:400px) and (max-width:474px) {
+        width:30vw
+    }
+    @media (min-width:621px) and (max-width:850px) {
+        width:20vw;
+        height: 5vh;
+
+    }
+  
+
+   
+  @media (min-width:851px) and (max-width:1100px) {
+        width:20vw;
+        height: 5vh;
+        
+
+    }
+}
+
+#cart,#cart2{
+    @media (min-width:850px) and (max-width:1100px) {
+        width: 40vw;
+    }
+    @media (min-width:700px) and (max-width:849px) {
+
+        width: 50vw;
+    }
+    @media (min-width:400px) and (max-width:699px) {
+        
+        width: 90vw;
+       
+    }
+}
+
+#item1{
+    @media (min-width:400px) and (max-width:699px) {
+        
+       font-size: 13px;
+       text-overflow: ellipsis;
+       
+    }
+}
+#cart3{
+    @media (min-width:400px) and (max-width:699px) {
+        
+       align-items: start;
+        
+     }
+}
+ 
+    
+
+
+
+
+
+
