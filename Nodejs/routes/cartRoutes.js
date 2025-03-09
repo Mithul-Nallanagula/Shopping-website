@@ -1,4 +1,5 @@
 import express from "express";
+import verifyToken from "../Controller/Middleware/authMiddleware.js";
 import { 
     getCartItems, 
     addItemToCart, 
@@ -10,16 +11,16 @@ import {
 const router = express.Router();
 
 
-router.get("/", getCartItems);
+router.get("/",verifyToken, getCartItems);
 
-router.post("/", addItemToCart);
-
-
-router.put("/:id", updateCartItem);
+router.post("/",verifyToken, addItemToCart);
 
 
-router.delete("/:id", removeItemFromCart);
+router.put("/:id",verifyToken, updateCartItem);
 
-router.delete("/", clearCart);
+
+router.delete("/:id",verifyToken, removeItemFromCart);
+
+router.delete("/",verifyToken, clearCart);
 
 export default router;
